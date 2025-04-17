@@ -61,7 +61,7 @@ body{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 12px 16px;
-    margin: 12px 0;
+    margin: auto 15px;
     line-height: 1.6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -70,12 +70,17 @@ body{
     flex: 1;
 }
 
+.bekezdes:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
+}
+
 .kepek{
     flex-shrink: 0;
     max-width: 40%;
     height: auto;
     border-radius: 8px;
-    margin: 20px auto;
+    margin: 20px 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid #2f3136;
 }
@@ -86,22 +91,51 @@ body{
     border-color: #e84118;
 }
 
-.tipusok_szoveg{
+.felsorolas_szoveg{
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 12px;
     color: white;
+    margin: auto 15px;
 }
 
-.tipusok_szoveg ul{
+.felsorolas_szoveg ul:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
+}
+
+.felsorolas_szoveg ul{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 12px 30px;
-    margin: 12px 0;
+    margin: auto 15px;
     line-height: 1.6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     background-color: #2f3136;
     border-left: 4px solid #e84118;
+}
+
+.cim{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 5);
+}
+
+.focim{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 50px 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
+    border-bottom: 4px solid #e84118;
+    display: inline-block;
+    padding-bottom: 12px;
 }
