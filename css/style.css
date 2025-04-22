@@ -139,3 +139,41 @@ body{
     display: inline-block;
     padding-bottom: 12px;
 }
+
+table{
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #2f3136;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+}
+
+thead{
+    background-color: #e84118;
+    text-transform: uppercase;
+}
+
+th, td{
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+tbody tr:nth-child(even){
+    background-color: #3a3b41;
+}
+
+tbody tr:hover{
+    background-color: #444;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+th{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
