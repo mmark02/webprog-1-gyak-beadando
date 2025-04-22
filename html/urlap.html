@@ -16,5 +16,20 @@
             <li class="menu_item"><a href="urlap.html" class="menu_link active" >Űrlap</a></li>
         </ul>
     </nav>
+    
+    <form id="kapcsolat" class="urlap">
+        <input type="text" id="nev" placeholder="Teljes név" required>
+        <input type="email" id="email" placeholder="Email cím" required>
+        <input type="text" id="jatek" placeholder="Kedvenc játék" required>
+        <textarea id="uzenet" placeholder="Üzenet" required></textarea>
+        <input type="text" id="orszag" placeholder="Ország" required>
+        <button type="submit">Küldés</button>
+    </form>
+    <div class="gombok">
+        <button id="megjelenit" class="megjelenit">Beküldött válaszok megjelenítése</button>
+        <button id="torol" class="torol">Az eddig eltárolt válaszok törlése</button>
+    </div>
+    <div id="valaszokDiv" class="valaszokDiv"></div>
+    <script src="../js/urlap.js"></script>
 </body>
 </html>

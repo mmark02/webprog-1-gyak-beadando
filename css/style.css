@@ -177,3 +177,83 @@ th{
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+.urlap{
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #2f3136;
+    border-left: 4px solid #e84118;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.urlap input,
+.urlap textarea{
+    background-color: #3a3b41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.urlap textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+.urlap button{
+    background-color: #e84118;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.urlap button:hover{
+    background-color: #f39c12;
+    transition: 0.2s;
+}
+
+.megjelenit,
+.torol{
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    background-color: #e84118;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.megjelenit:hover,
+.torol:hover{
+    background-color: #f39c12;
+    transition: 0.2s;
+}
+
+.valaszokDiv{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #2f3136;
+    color: white;
+    border-left: 4px solid #e84118;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gombok{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
