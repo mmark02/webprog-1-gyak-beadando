@@ -13,10 +13,16 @@
             <li class="menu_item"><a href="retro.html" class="menu_link" >Retro</a></li>
             <li class="menu_item"><a href="modern.html" class="menu_link" >Modern</a></li>
             <li class="menu_item"><a href="esport.html" class="menu_link" >Esport</a></li>
-            <li class="menu_item"><a href="urlap.html" class="menu_link active" >Űrlap</a></li>
+            <li class="menu_item"><a href="urlap.html" class="menu_link active" >Kapcsolat</a></li>
         </ul>
     </nav>
     
+    <h1 class="focim">Kapcsolat</h1>
+
+    <div class="kep_szoveg balra">
+        <p class="bekezdes">Ha bármilyen kérdésed van a weboldalon szereplő játékokkal kapcsolatban, vagy csak szeretnél véleményt küldeni, töltsd ki az alábbi űrlapot!</p>
+    </div>
+
     <form id="kapcsolat" class="urlap">
         <input type="text" id="nev" placeholder="Teljes név" required>
         <input type="email" id="email" placeholder="Email cím" required>
@@ -29,7 +35,13 @@
         <button id="megjelenit" class="megjelenit">Beküldött válaszok megjelenítése</button>
         <button id="torol" class="torol">Az eddig eltárolt válaszok törlése</button>
     </div>
-    <div id="valaszokDiv" class="valaszokDiv"></div>
+    <div id="valaszokDiv" class="valaszokDiv" style="display: none;"></div>
     <script src="../js/urlap.js"></script>
+
+    <div class="kepek_container">
+        <img src="../kepek/kapcsolat1.jpg" class="kepek">
+        <img src="../kepek/kapcsolat2.jpg" class="kepek">
+        <img src="../kepek/kapcsolat3.jpeg" class="kepek">
+    </div>
 </body>
 </html>

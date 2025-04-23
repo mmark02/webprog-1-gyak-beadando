@@ -20,6 +20,7 @@ document.getElementById("megjelenit").addEventListener('click', function(){
     let valaszok = JSON.parse(localStorage.getItem('valaszok')) || [];
     let tarolo = document.getElementById('valaszokDiv');
 
+    tarolo.style.display = "block";
     if (valaszok.length === 0) {
         tarolo.innerHTML = "<p>Nincsenek elmentett válaszok.</p>";
         return;
