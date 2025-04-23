@@ -24,11 +24,11 @@
     </div>
 
     <form id="kapcsolat" class="urlap">
-        <input type="text" id="nev" placeholder="Teljes név" required>
-        <input type="email" id="email" placeholder="Email cím" required>
-        <input type="text" id="jatek" placeholder="Kedvenc játék" required>
-        <textarea id="uzenet" placeholder="Üzenet" required></textarea>
-        <input type="text" id="orszag" placeholder="Ország" required>
+        <input type="text" id="nev" placeholder="Teljes név" required minlength="10">
+        <input type="email" id="email" placeholder="Email cím" required minlength="10">
+        <input type="text" id="jatek" placeholder="Kedvenc játék" required minlength="10">
+        <textarea id="uzenet" placeholder="Üzenet" required minlength="10"></textarea>
+        <input type="text" id="orszag" placeholder="Ország" required minlength="10">
         <button type="submit">Küldés</button>
     </form>
     <div class="gombok">
