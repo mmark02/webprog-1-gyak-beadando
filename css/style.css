@@ -28,7 +28,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    transition: background-color 0.1s, color 0.1s;
+    transition: background-color 0.2s;
 }
 
 .menu_link:hover{
@@ -215,11 +215,11 @@ th{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
+    transition: background-color 0.2s;
 }
 
 .urlap button:hover{
     background-color: #f39c12;
-    transition: 0.2s;
 }
 
 .megjelenit,
@@ -233,12 +233,12 @@ th{
     border-radius: 4px;
     font-size: 15px;
     cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .megjelenit:hover,
 .torol:hover{
     background-color: #f39c12;
-    transition: 0.2s;
 }
 
 .valaszokDiv{
